@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #002f34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s linear;
+}
+.block{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerTwo{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.olx_icon{
+    width: 100px;
+    height: 65px;
+}
+.olx_icon img{
+    width: 100px;
+    height: 65px;
+}
+.til{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.til p{
+    color: #fff;
+    cursor: pointer;
+}
+.til p b{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.messege{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.messege img{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 5px;
+}
+.messege p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    
+}
+.messege p:hover{
+    color: #7F9799;
+    transition: 0.2s linear;
+}
+.like{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like img{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+}
+.Im_account{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.imgBlock{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgBlock img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.Im_account p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.Im_account p:hover{
+    color: #7F9799;
+    transition: 0.2s linear;
+}
+.Btncontainer{
+    width: 120px;
+    height: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Btncontainer .btnblock button{
+    background-color: transparent;
+    font-size: 18px;
+    color: #002f34;
+    border: none;
+    font-weight: 400;
+    transition: 0.4s linear;
+}
+.Btncontainer .btnblock{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s linear;
+}
+.Btncontainer .btnblock:hover{
+    background-color: #002f34;
+    color: #ffffff;
+    transition: 0.4s linear;
+}
+.btnblock{
+    transition: 0.4s linear;
+}
+.Btncontainer .btnblock:hover button{
+    color: #ffffff;
+    cursor: pointer;
+}
+.Btncontainer .btnblock:hover{
+    color: #ffffff;
+}
+.search_block{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(129, 126, 126, 0.103);
+    margin-top: 75px;
+}
+.search_block2{
+    width: 1100px;
+    height: 65px;
+}
+.search_block3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.search_block3 input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.search_img img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.location{
+    width: 260px;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+.location img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.location p{
+    cursor: pointer;
+}
+.categories{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.h1_block{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.categories{
+    width: 1200px;
+    height: 500px;
+    border: 1px solid transparent;
+}
+.categories_Block{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.children{
+    width: 130px;
+    height: 155px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.cil_Img{
+    width: 90%;
+    height: 70%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.cil_Img img{
+    width: 100%;
+    height: 100%;
+}
+p::selection{
+    background-color: transparent;
+}
+h1::selection{
+    background-color: transparent;
+}
+img::selection{
+    background-color: transparent;
+}
+.children p{
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.children p:hover{
+    cursor: pointer;
+    background-color: #002f34;
+    transition: 0.2s linear;
+    color: #ffffff;
+}
+
+.elon_container{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.elon_container1{
+    width: 300px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.elon_Img{
+    width: 270px;
+    height: 220px;
+    object-fit: cover;
+}
+.elon_Img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.elon_name{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.elon_name p:hover{
+    background-color: #002f34;
+    cursor: pointer;
+    color: #ffffff;
+}
+.elon_name p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+.address{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cost{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cost img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.elonBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.h1perimum{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+.cost p{
+    margin-left: 20px;
+}
+.cost img{
+    margin-right: 10px;
+}
+
+.olx_ads{
+    width: 100%;
+    height: 110px;
+    background-color: #002f34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.olx_static{
+    width: 55%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.olx_static p{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Fredoka', sans-serif;
+}
+.olx_address{
+    width: 100%;
+    height: 400px;
+    background-color: #cbf7ee;
+   
+}
+.olx_iconca2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.olx_address p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 50px;
+    width: 600px;
+    height: 170px;
+    line-height: 1.5;
+
+}
+.olx_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.olx_bolimlar{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgba(0, 0, 0, 0.048);
+}
+.imgtext{
+    width: 76%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.imgtext p{
+    font-size: 15px;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 20px;
+}
+.imgtext img{
+    width: 150px;
+    height: 130px;
+    margin-top: 20px;
+}
+.bizhaqimizda{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+.bizcontainer{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foter1{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.foter1 p{
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #002f34;
+    font-weight: 600;
+}
+.foter2{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.foter2 p{
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #002f34;
+    font-weight: 600;
+}
+.foter3{
+    width: 350px;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+    margin-right: 50px;
+}
+.foter3 img{
+    width: 140px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.app{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.foter3 p{
+    font-size: 12px;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #2f30309f;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.hr{
+    width: 100%;
+    border: 0.1px solid rgb(119, 118, 118);
+}
