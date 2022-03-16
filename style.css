@@ -551,3 +551,11 @@ img::selection{
     width: 100%;
     border: 0.1px solid rgb(119, 118, 118);
 }
+#scrollbarProgress{
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 8px;
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    z-index: 10;
+}
